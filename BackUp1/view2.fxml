@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-stylesheet view.css?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<StackPane fx:id="view2" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.View2Controller">
+    <children>
+        <Button mnemonicParsing="false" onAction="#previousPane" text="Previous Pane" />
+    </children>
+</StackPane>
